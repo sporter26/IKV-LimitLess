@@ -5,7 +5,7 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbDcxamE5VlFXczIvVFcwMGduM0wyZmVSTnUvS1pibWI3RGhNUkZ0bjV5NnN1bGRzNUJaSUpSek1IUW5EZExUNWlHNG9YajNtVXViVGRSaGFHQjE3NzZsckZ4OEo5ZmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNzA4ODc1CWZpbGU6TGltaXRMZXNzXzEuMS41X3g2NC1zZXR1cC5leGUKZFJwRVNQMVFQL2NCOG9DUmFyRG5QSzRINnJNc2VOeUVTdW9ncVo2L0Excml1MTRlSERZekFFZXhheHlWdFZqRktxRDFFQzBxb3gxQ1M2dmRJaTkzQ0E9PQo=",
-      "url": "https://github.com/sporter26/IKV-LimitLess/releases/download/v1.1.6/LimitLess_1.1.6_x64-setup.exe"
+      "url": "https://github.com/sporter26/IKV-LimitLess/releases/download/untagged-053b07cf6db8ef0155ad/LimitLess_1.1.6_x64-setup.exe"
     }
   }
 }
