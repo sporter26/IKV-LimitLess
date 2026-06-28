@@ -1,5 +1,4 @@
 
-
 ## 🚀 Özellikler
 
 - **Çoklu Hesap Yönetimi (Multi-Client):** Aynı anda sınırsız sayıda hesabı yönetebilir, hepsini tek tuşla oyuna sokabilirsiniz.
@@ -18,11 +17,32 @@ LimitLess, tamamen **Yerel (Local) Çalışma Prensibi**'ne dayanır.
 
 ---
 
-## ⚙️ Kurulum ve Geliştirme (Nasıl Çalıştırılır?)
+## 📥 Nasıl Kurulur ve Kullanılır?
 
-Bu uygulamayı kaynak kodundan kendi bilgisayarınızda çalıştırabilmek için aşağıdaki gereksinimleri kurmalısınız.
+LimitLess'i kullanmak için **iki farklı yöntem** vardır. Eğer sadece uygulamayı açıp oyuna girmek istiyorsanız 1. Yöntemi, kodları inceleyip geliştirmek istiyorsanız 2. Yöntemi seçin.
 
-### 3. Çalıştırma (Dev Mode)
+### Yöntem 1: Normal Kullanıcılar İçin (Önerilen)
+Kodlarla veya derleme işlemleriyle uğraşmanıza gerek yoktur.
+1. Github sayfasının sağ tarafında bulunan **Releases (Sürümler)** bölümüne tıklayın.
+2. Oradaki en güncel sürümün altından **`ikvlimitless.exe`** dosyasını bilgisayarınıza indirin.
+3. İndirdiğiniz EXE dosyasına çift tıklayarak uygulamayı anında kullanmaya başlayabilirsiniz!
+
+---
+
+### Yöntem 2: Geliştiriciler İçin (Kaynak Kodundan Derleme)
+
+> [!WARNING]
+> **ÖNEMLİ:** Bu projede Git LFS (Büyük Dosya Depolama) kullanılmaktadır. Github üzerinden yeşil renkli butona basıp **"Download ZIP" diyerek İNDİRMEYİN**. Eğer ZIP olarak indirirseniz `.exe` ve `.dll` dosyaları bozuk inecek ve uygulama çalışırken `os error 216` hatası verecektir.
+> Projeyi bilgisayarınıza indirmek için **Github Desktop** kullanın veya terminalden şu komutu girin:
+> `git clone https://github.com/sporter26/IKV-LimitLess.git`
+> *(Not: Bu komutun çalışması için bilgisayarınızda [Git yazılımının](https://git-scm.com/download/win) kurulu olması gerekir).*
+
+Bu uygulamayı kaynak kodundan kendi bilgisayarınızda çalıştırabilmek için aşağıdaki gereksinimleri kurmalısınız:
+- **[Node.js (v18 veya üzeri)](https://nodejs.org/):** Sitesine girip "LTS" sürümünü indirerek bilgisayarınıza normal bir program gibi kurun.
+- **[Rust ve Cargo](https://rustup.rs/):** Sitesinden `rustup-init.exe` dosyasını indirip çalıştırın. Açılan siyah ekranda "1" yazıp Enter'a basarak varsayılan kurulumu tamamlayın.
+- **[C++ Derleme Araçları](https://visualstudio.microsoft.com/tr/visual-cpp-build-tools/):** Visual Studio Build Tools'u indirin, kurarken "C++ ile masaüstü geliştirme (Desktop development with C++)" seçeneğini işaretleyip yükleyin. (Rust'ın Windows'ta kod derleyebilmesi için şarttır).
+
+#### Geliştirici Modunda Çalıştırma
 Terminali (CMD veya PowerShell) açın ve şu kodları sırasıyla yazın:
 ```bash
 # LimitLess klasörünün içinde sağ tıklayarak terminali aç diyin. 
@@ -60,4 +80,4 @@ Oluşan bu EXE dosyasını alıp istediğiniz bilgisayarda kullanabilirsiniz.
 ---
 
 ## 📜 Lisans & Yasal Uyarı
-Bu yazılım tamamen yapay zeka ile yapılmış olup açık kaynaklı ve lisanssız olarak paylaşılmaktadır. Eğitim ve oyun mekaniklerini inceleme (Reverse Engineering) amacıyla yapılmıştır. Sorumluluk tamamen kullanıcıya aittir.
+Bu yazılım tamamen yapay zeka ile açık kaynaklı ve lisanssız olarak paylaşılmaktadır. Eğitim ve oyun mekaniklerini inceleme (Reverse Engineering) amacıyla yapılmıştır. Sorumluluk tamamen kullanıcıya aittir.
