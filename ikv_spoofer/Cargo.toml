@@ -1,0 +1,17 @@
+[package]
+name = "ikv_spoofer"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["winuser", "minwindef", "memoryapi", "libloaderapi", "consoleapi", "processthreadsapi", "iphlpapi", "iptypes", "winerror", "errhandlingapi", "fileapi", "ioapiset", "guiddef", "winbase", "minwinbase", "ntdef", "oleauto", "oaidl", "combaseapi", "objbase", "winnt", "tlhelp32", "psapi", "sysinfoapi", "wingdi"] }
+minhook = "0.8.0"
+rand = "0.8.5"
+lazy_static = "1.4.0"
+sysinfo = "0.39.3"
+log = "0.4.31"
+simplelog = "0.12.2"
+bmp = "0.5.0"
