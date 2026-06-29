@@ -24,7 +24,7 @@ LimitLess'i kullanmak için **iki farklı yöntem** vardır. Eğer sadece uygula
 ### Yöntem 1: Normal Kullanıcılar İçin (Önerilen)
 Kodlarla veya derleme işlemleriyle uğraşmanıza gerek yoktur.
 1. Github sayfasının sağ tarafında bulunan **Releases (Sürümler)** bölümüne tıklayın.
-2. Oradaki en güncel sürümün altından **`ikvlimitless.exe`** dosyasını bilgisayarınıza indirin.
+2. Oradaki en güncel sürümün altından **`LimitLess_setup.exe`** dosyasını bilgisayarınıza indirin.
 3. İndirdiğiniz EXE dosyasına çift tıklayarak uygulamayı anında kullanmaya başlayabilirsiniz!
 
 ---
@@ -79,5 +79,16 @@ Oluşan bu EXE dosyasını alıp istediğiniz bilgisayarda kullanabilirsiniz.
 
 ---
 
+## 🤖 Yapay Zeka (Antigravity IDE) ile Kod İnceleme
+
+Bu projenin büyük bir bölümü (ve sorun giderme aşamaları) Google DeepMind tarafından geliştirilen yapay zeka destekli **Antigravity IDE** kullanılarak inşa edilmiştir.
+
+Projenin güvenlik vaatlerini doğrulamak, nasıl çalıştığını anlamak veya kendinize göre yeni özellikler eklemek isterseniz:
+1. Kaynak kodları indirin.
+2. [Antigravity IDE](https://gemini.google.com)'yi (veya desteklenen başka bir yapay zeka asistanını) kullanarak projeyi çalışma alanınıza (workspace) ekleyin.
+3. Yapay zekaya *"Bu projenin dışarıya herhangi bir log veya veri gönderip göndermediğini analiz et"*, *"ikv_spoofer.dll tam olarak ne yapıyor açıkla"* veya *"Bu arayüze yeni bir X özelliği ekle"* şeklinde komutlar vererek kodları tamamen şeffaf bir şekilde inceletebilir ve kişiselleştirebilirsiniz.
+
+---
+
 ## 📜 Lisans & Yasal Uyarı
-Bu yazılım tamamen yapay zeka ile açık kaynaklı ve lisanssız olarak paylaşılmaktadır. Eğitim ve oyun mekaniklerini inceleme (Reverse Engineering) amacıyla yapılmıştır. Sorumluluk tamamen kullanıcıya aittir.
+Bu yazılım tamamen yapay zeka ile açık kaynaklı ve lisanssız olarak paylaşılmaktadır. Dileyen internet üzerinden Antigravity IDE kurup incelemesini yaptırabilir. Eğitim ve oyun mekaniklerini inceleme (Reverse Engineering) amacıyla yapılmıştır. Sorumluluk tamamen kullanıcıya aittir.
