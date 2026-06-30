@@ -74,18 +74,6 @@ veya kurulum (setup) dosyası için:
 👉 `ikvlimitless-tauri/src-tauri/target/release/bundle/nsis/`
 
 Oluşan bu EXE dosyasını alıp istediğiniz bilgisayarda kullanabilirsiniz.
-
----
-
-## 🤖 Yapay Zeka (Antigravity IDE) ile Kod İnceleme
-
-Bu projenin büyük bir bölümü (ve sorun giderme aşamaları) Google DeepMind tarafından geliştirilen yapay zeka destekli **Antigravity IDE** kullanılarak inşa edilmiştir.
-
-Projenin güvenlik vaatlerini doğrulamak, nasıl çalıştığını anlamak veya kendinize göre yeni özellikler eklemek isterseniz:
-1. Kaynak kodları indirin.
-2. [Antigravity IDE](https://gemini.google.com)'yi (veya desteklenen başka bir yapay zeka asistanını) kullanarak projeyi çalışma alanınıza (workspace) ekleyin.
-3. Yapay zekaya *"Bu projenin dışarıya herhangi bir log veya veri gönderip göndermediğini analiz et"*, *"ikv_spoofer.dll tam olarak ne yapıyor açıkla"* veya *"Bu arayüze yeni bir X özelliği ekle"* şeklinde komutlar vererek kodları tamamen şeffaf bir şekilde inceletebilir ve kişiselleştirebilirsiniz.
-
 ---
 
 ## 📜 Lisans & Yasal Uyarı
