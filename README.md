@@ -31,11 +31,9 @@ Kodlarla veya derleme işlemleriyle uğraşmanıza gerek yoktur.
 
 ### Yöntem 2: Geliştiriciler İçin (Kaynak Kodundan Derleme)
 
-> [!WARNING]
-> **ÖNEMLİ:** Bu projede Git LFS (Büyük Dosya Depolama) kullanılmaktadır. Github üzerinden yeşil renkli butona basıp **"Download ZIP" diyerek İNDİRMEYİN**. Eğer ZIP olarak indirirseniz `.exe` ve `.dll` dosyaları bozuk inecek ve uygulama çalışırken `os error 216` hatası verecektir.
-> Projeyi bilgisayarınıza indirmek için **Github Desktop** kullanın veya terminalden şu komutu girin:
-> `git clone https://github.com/sporter26/IKV-LimitLess.git`
-> *(Not: Bu komutun çalışması için bilgisayarınızda [Git yazılımının](https://git-scm.com/download/win) kurulu olması gerekir).*
+1. Github sayfasının sağ tarafında bulunan **Relases (Sürümler)** bölümüne tıklayın.
+2. Oradaki en güncel sürümün altından **`LimitLess.zip`** dosyasını bilgisayarınıza indirin.
+3. Zip'i klasöre çıkartıp tüm kaynak kodlarına erişebilirsiniz.
 
 Bu uygulamayı kaynak kodundan kendi bilgisayarınızda çalıştırabilmek için aşağıdaki gereksinimleri kurmalısınız:
 - **[Node.js (v18 veya üzeri)](https://nodejs.org/):** Sitesine girip "LTS" sürümünü indirerek bilgisayarınıza normal bir program gibi kurun.
