@@ -3,7 +3,7 @@
 
 - **Çoklu Hesap Yönetimi (Multi-Client):** Aynı anda sınırsız sayıda hesabı yönetebilir, hepsini tek tuşla oyuna sokabilirsiniz.
 - **Hesap Giriş İpucu:** Eğer uygulamanız oyuna giriş yapamıyorsa veya hata veriyorsa, hesabınızı kaydederken yazdığınız telefon numarasının başındaki "0" (sıfır) rakamını silerek veya ekleyerek tekrar deneyin.
-- **Donanım Kimliği Gizleme (HWID Spoofer):** Sisteme entegre edilen `ikv_spoofer` sayesinde her hesap oyuna farklı bir donanım kimliğiyle girer. Ban riski en aza indirilir.
+- **Donanım Kimliği Gizleme (HWID Spoofer):** Sisteme entegre edilen `ikv_spoofer` sayesinde her hesap oyuna farklı bir donanım kimliğiyle girer. Ban riski ortadan kaldırılır.
 - **Modern Arayüz (UI):** React ve TailwindCSS ile kodlanmış, karanlık mod destekli, göz yormayan modern yönetim paneli.
 
 ---
