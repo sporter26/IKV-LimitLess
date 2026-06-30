@@ -4,7 +4,6 @@
 - **Çoklu Hesap Yönetimi (Multi-Client):** Aynı anda sınırsız sayıda hesabı yönetebilir, hepsini tek tuşla oyuna sokabilirsiniz.
 - **Hesap Giriş İpucu:** Eğer uygulamanız oyuna giriş yapamıyorsa veya hata veriyorsa, hesabınızı kaydederken yazdığınız telefon numarasının başındaki "0" (sıfır) rakamını silerek veya ekleyerek tekrar deneyin.
 - **Donanım Kimliği Gizleme (HWID Spoofer):** Sisteme entegre edilen `ikv_spoofer` sayesinde her hesap oyuna farklı bir donanım kimliğiyle girer. Ban riski ortadan kaldırılır.
-- **Modern Arayüz (UI):** React ve TailwindCSS ile kodlanmış, karanlık mod destekli, göz yormayan modern yönetim paneli.
 
 ---
 
@@ -19,9 +18,7 @@ LimitLess, tamamen **Yerel (Local) Çalışma Prensibi**'ne dayanır.
 
 ## 📥 Nasıl Kurulur ve Kullanılır?
 
-LimitLess'i kullanmak için **iki farklı yöntem** vardır. Eğer sadece uygulamayı açıp oyuna girmek istiyorsanız 1. Yöntemi, kodları inceleyip geliştirmek istiyorsanız 2. Yöntemi seçin.
-
-### Yöntem 1: Normal Kullanıcılar İçin (Önerilen)
+### Normal Kullanıcılar İçin
 Kodlarla veya derleme işlemleriyle uğraşmanıza gerek yoktur.
 1. Github sayfasının sağ tarafında bulunan **Releases (Sürümler)** bölümüne tıklayın.
 2. Oradaki en güncel sürümün altından **`LimitLess_setup.exe`** dosyasını bilgisayarınıza indirin.
