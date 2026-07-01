@@ -12,7 +12,6 @@
 LimitLess, tamamen **Yerel (Local) Çalışma Prensibi**'ne dayanır. 
 - Uygulama içerisine girdiğiniz karakter adları, kullanıcı bilgileri ve şifreler, şifrelenmiş (AES 256) olarak yalnızca **kendi bilgisayarınızda** (`AppData/Roaming/com.limitless.app`) yerel SQLite veritabanında saklanır. 
 - Hiçbir hesap bilginiz internete veya harici bir sunucuya **asla gönderilmez.** 
-- Proje açık kaynaklı olduğu için kaynak kodlarını dilediğiniz gibi inceleyebilir, dışarıya veri akışı olmadığını kendi gözlerinizle görebilirsiniz.
 
 ---
 
